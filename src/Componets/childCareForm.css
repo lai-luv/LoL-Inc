@@ -1,0 +1,16 @@
+body {
+  background-color: lightpink;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: 6em auto;
+  font-size: 26px;
+
+}
+input{
+    margin: 5px 0 7px 0 ;
+    
+}
