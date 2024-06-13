@@ -31,7 +31,7 @@ function App() {
       touchControls: true,
       gyroControls: false,
       minHeight: 1000.0,
-      minWidth: 1000.0,
+      minWidth: 3000.0,
       scale: 1.0,
       scaleMobile: 1.0,
     });

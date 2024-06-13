@@ -35,5 +35,11 @@ textarea {
   padding-bottom: 12px;
 }
 .button {
-  height: 14px;
+  height: 5rem;
+  font-size: 4rem;
+  font-family: "Flavor-Rergular";
+}
+input[type="checkbox"] {
+  height: 3rem;
+  padding-bottom: 12px;
 }
