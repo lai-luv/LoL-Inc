@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Flavor-Rergular";
+  src: url("../assets/Flavors/Flavors-Regular.ttf") format(truetype);
+}
+
 body {
   background-color: lightpink;
 }
@@ -7,10 +12,30 @@ form {
   flex-direction: column;
   align-content: center;
   margin: 6em auto;
-  font-size: 26px;
+  font-size: 4rem;
+  font-family: "Flavor-Rergular";
+ 
+}
+
+input {
+  margin: 5px 0 7px 0;
+  font-family: "PermanentMarker-Regular";
+  font-size: 4rem;
+}
+textarea {
+  font-size: 2rem;
+  font-family: "AreYouSerious-Regular";
+}
+.formInput{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 60rem;
 
 }
-input{
-    margin: 5px 0 7px 0 ;
+.formInput label{
+    padding-bottom: 12px;
+}
+button{
     
 }

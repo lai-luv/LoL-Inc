@@ -1,13 +1,18 @@
-*{
-    box-sizing: border-box;
-
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-.container{
-    margin: 1rem;
-    text-align: center;
-    font-size: 4rem;
-    color: rgb(194, 49, 150);
+.container {
+  margin: 1rem;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(194, 49, 150);
+}
+.backGround {
+  position: fixed;
+  width: 100vh;
+  height: 100vh;
+  z-index: -1;
 }
