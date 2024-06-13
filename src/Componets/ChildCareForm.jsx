@@ -137,7 +137,7 @@ function ChildCareForm() {
         value={formData.pamperSize}
       />}
 
-      <button type="submit" disabled={state.submitting}>
+      <button className="button"  type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>
